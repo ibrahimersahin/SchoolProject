@@ -1,0 +1,76 @@
+/* css te yourumlari bu sekilde yapiyoruz*/
+body{
+    background-color: aqua;
+    /*backgorund image ile birilikte arkadaki fonda resimleri gorebiliyoruz*/
+    background-image: url(kids.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover ;
+    /*background ile basliyorsa hepsini tek satirda yazabiliriz.
+    background: coral url(kids.jpg) center no-repeat fixed*/
+}
+
+select{
+   background-color: yellow;
+    color: rgb(256, 41, 23);
+}
+
+form{
+    /* background-color: #ffff; /*background-color: red;
+    hexa 0-9 A - F arasi veriyor renkleri extra info :)
+    ffff diye olabiliyor baska ozellik bu renklerin codelarini netten
+    htmlcodecolor.com dan da bulabiliriz*/
+    color: red;
+} */
+/*Bunu html in icinde de yazabilirdik stylein ustunde hemen ama amac kodumuz az ve organiza olsun diye css filein icine koyduk onemli*/
+/* Etiket adlari icin yani hepsi icin*/
+input{
+    font-size: 20px;
+    font-size: bold;
+}
+/* burdaki ozelid asagida text de var bak cok onemli boylece ozel bir ozellik veriyorusun sadece o alanda calisacak*/
+#ozelid{
+    background-color: red;
+    color: white;
+}
+/* burdada asagida class kullandik ona dikkat edelim*/
+.ozelIsim{
+    background-color: violet;
+    color: azure;
+}
+/*Type ina gore yaptik orasi passworda olabilir, search te olabilir onemli asagida gorebiliriz*/
+[type=search]{
+    background-color: red;
+    color: white;
+}
+
+.orta-sinif{
+    text-align: right;
+    font-size: 20px;
+    font-size: bold;
+}
+.sag-sinif{
+    text-align: right;
+    font-size: 20px;
+    font-size: bold;
+}
+
+.sag-sinif{
+    text-align: center;
+    font-size: 20px;
+    font-size: bold;
+}
+
+.ozel-link:visited{
+    background-color: red;
+
+}
+.ozel-link:hover{
+    background-color: goldenrod;
+}
+
+.ozel-link:active{
+    background-color: aqua;
+}
